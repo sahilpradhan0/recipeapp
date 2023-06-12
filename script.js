@@ -107,7 +107,7 @@ function showRecipeModal(meal) {
   let html = `
         <div class="meal-container">
         <h1 class="meal-title">${meal.strMeal}</h1>
-        <h6 class="meal-category">Category : <span>${meal.strCategory.slice(0,6)+"..."}</span> </h6>
+        <h6 class="meal-category">Category : <span>${meal.strCategory}</span> </h6>
         <img class="meal-img" src=${meal.strMealThumb} alt="" style="width: 100px" />
         <p class="instruction">
         <b>Instruction </b>:

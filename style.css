@@ -18,8 +18,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 10px 0px;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
 }
 .service{
     display: flex;
