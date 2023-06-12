@@ -40,9 +40,10 @@
   }
   .menu {
     margin-right: 10px;
-    position: fixed;
+    position: absolute;
     right: 0;
-    display: block;
+    top: 0;
+    display: block; 
   }
   .searchMeal input,
   .searchIngredient input {
