@@ -1,0 +1,97 @@
+@media screen and (max-width: 770px) {
+  .hPart h1 {
+    font-size: 2.5rem;
+  }
+  .image {
+    width: 200px;
+  }
+  .searchMeal input,
+  .searchIngredient input {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .service {
+    display: none;
+  }
+  .listRes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #32b768;
+    height: 180px;
+    width: 65vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .listResItems {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    position: fixed;
+    top: 2%;
+    left: 0;
+  }
+  .listResItems li a {
+    margin-bottom: 15px;
+    color: white;
+  }
+  .menu {
+    margin-right: 10px;
+    position: fixed;
+    right: 0;
+    display: block;
+  }
+  .searchMeal input,
+  .searchIngredient input {
+    width: 12rem;
+  }
+
+  .logo-title {
+    font-size: 1.2rem;
+  }
+  .popular_food_text h4 {
+    font-size: 1.8rem;
+  }
+  .hPart h1 {
+    font-size: 1.2rem;
+  }
+  .paraPart p {
+    font-size: 0.8rem;
+  }
+  .image {
+    width: 120px;
+    position: absolute;
+    top: 6%;
+    right: 10px;
+  }
+  .goHome {
+    padding: -15px;
+  }
+  .goHome a {
+    font-size: 0.7rem;
+  }
+  .about-container {
+    margin-top: 15%;
+  }
+  .about-container img {
+    width: 120px;
+  }
+  .about-container p {
+    font-size: 0.8rem;
+  }
+  .form-container {
+    margin-top: 20%;
+    width: 70%;
+  }
+  .form-container h1 {
+    font-size: 1.2rem;
+  }
+  .meal-details {
+    width: 80%;
+    height: 90%;
+    left: 10%;
+  }
+}
